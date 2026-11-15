@@ -77,5 +77,6 @@ def stamp_cjk_name():
     tmp.replace(PDF)
 
 
-stamp_cjk_name()
-print("name stamped on cover")
+if not STUDENT_NAME.isascii():
+    stamp_cjk_name()
+    print("name stamped on cover")

@@ -52,8 +52,8 @@ After publication, rebuild with your own values:
 ```bash
 export AIDD_STUDENT_ID="YOUR_STUDENT_ID"
 export AIDD_STUDENT_NAME="YOUR_NAME"
-python -I report/make_report.py "https://github.com/shuangyth/aidd8122-logd-expansionrx" "v1.0-submission"
-python -I slides/build_slides.py "github.com/shuangyth/aidd8122-logd-expansionrx" "v1.0-submission"
+python -I report/make_report.py "https://github.com/shuangyth/aidd8122-logd-expansionrx" "v1.0.1-submission"
+python -I slides/build_slides.py "github.com/shuangyth/aidd8122-logd-expansionrx" "v1.0.1-submission"
 ```
 
 Outputs: `report/AIDD8122_Final_Project_Report.docx` / `.pdf` and
