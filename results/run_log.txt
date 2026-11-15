@@ -1,0 +1,12 @@
+[    3.0s] audit: fit=4031 val=1008 test=2270 overlap_removed=0
+[    8.0s] frozen params: {'M1_alpha': 0.1, 'M2_leaf': 1, 'M3_leaf': 1, 'selection_rule': 'lowest validation MAE; ties -> larger value'}
+[   12.4s] M0 seed=det: {'model': 'M0', 'seed': 'det', 'MAE': 0.8120264317180617, 'RMSE': 1.0389400732337382, 'R2': -0.0003008462081703911}
+[   12.4s] M1 seed=det: {'model': 'M1', 'seed': 'det', 'MAE': 0.7656429809775984, 'RMSE': 0.9688254676372774, 'R2': 0.13015727869752447}
+[   12.8s] M2 seed=11: {'model': 'M2', 'seed': 11, 'MAE': 0.6794091785348951, 'RMSE': 0.8711520448703988, 'R2': 0.296704949219299}
+[   13.9s] M3 seed=11: {'model': 'M3', 'seed': 11, 'MAE': 0.620086882751365, 'RMSE': 0.8180648169643175, 'R2': 0.37980955552212625}
+[   14.4s] M2 seed=22: {'model': 'M2', 'seed': 22, 'MAE': 0.6804957707649086, 'RMSE': 0.8737364357038168, 'R2': 0.292525919035415}
+[   15.4s] M3 seed=22: {'model': 'M3', 'seed': 22, 'MAE': 0.6193869648975595, 'RMSE': 0.8177996704092005, 'R2': 0.38021151562982725}
+[   15.8s] M2 seed=33: {'model': 'M2', 'seed': 33, 'MAE': 0.6765044069204906, 'RMSE': 0.870755391623838, 'R2': 0.29734525249993127}
+[   16.9s] M3 seed=33: {'model': 'M3', 'seed': 33, 'MAE': 0.6301110302839596, 'RMSE': 0.8297840984041722, 'R2': 0.36191305922407535}
+[   18.4s] verification passed: {'metrics_recompute_max_abs_diff': 2.220446049250313e-16, 'distinct_test_id_orders_across_runs': 1, 'n_test': 2270, 'rerun_max_abs_pred_diff': {'M1': 4.440892098500626e-16, 'M2': 1.3322676295501878e-15, 'M3': 8.881784197001252e-16}}
+[   18.5s] done

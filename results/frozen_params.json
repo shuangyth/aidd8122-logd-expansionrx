@@ -1,0 +1,6 @@
+{
+  "M1_alpha": 0.1,
+  "M2_leaf": 1,
+  "M3_leaf": 1,
+  "selection_rule": "lowest validation MAE; ties -> larger value"
+}

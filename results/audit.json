@@ -1,0 +1,68 @@
+{
+  "train_file": {
+    "raw_records": 5326,
+    "valid_label": 5039,
+    "excluded_missing_label": 287,
+    "rdkit_parse_failures": 0,
+    "extra_records_merged_by_canonical_smiles": 0,
+    "unique_molecules": 5039,
+    "removed_for_overlap_with_test": 0,
+    "final_train_pool": 5039
+  },
+  "test_file": {
+    "raw_records": 2282,
+    "valid_label": 2270,
+    "excluded_missing_label": 12,
+    "rdkit_parse_failures": 0,
+    "extra_records_merged_by_canonical_smiles": 0,
+    "unique_molecules": 2270,
+    "final_test": 2270
+  },
+  "split": {
+    "fit": 4031,
+    "val": 1008,
+    "test": 2270
+  },
+  "label_stats": {
+    "train_full": {
+      "count": 5039.0,
+      "mean": 2.112,
+      "std": 1.191,
+      "min": -2.0,
+      "25%": 1.4,
+      "50%": 2.1,
+      "75%": 2.9,
+      "max": 5.2
+    },
+    "fit": {
+      "count": 4031.0,
+      "mean": 2.114,
+      "std": 1.19,
+      "min": -2.0,
+      "25%": 1.4,
+      "50%": 2.1,
+      "75%": 2.9,
+      "max": 5.2
+    },
+    "val": {
+      "count": 1008.0,
+      "mean": 2.103,
+      "std": 1.195,
+      "min": -2.0,
+      "25%": 1.4,
+      "50%": 2.1,
+      "75%": 3.0,
+      "max": 5.0
+    },
+    "test": {
+      "count": 2270.0,
+      "mean": 2.118,
+      "std": 1.039,
+      "min": -1.8,
+      "25%": 1.5,
+      "50%": 2.2,
+      "75%": 2.8,
+      "max": 5.1
+    }
+  }
+}

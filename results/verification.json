@@ -1,0 +1,10 @@
+{
+  "metrics_recompute_max_abs_diff": 2.220446049250313e-16,
+  "distinct_test_id_orders_across_runs": 1,
+  "n_test": 2270,
+  "rerun_max_abs_pred_diff": {
+    "M1": 4.440892098500626e-16,
+    "M2": 1.3322676295501878e-15,
+    "M3": 8.881784197001252e-16
+  }
+}

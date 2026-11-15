@@ -1,0 +1,13 @@
+data/raw/
+__pycache__/
+.DS_Store
+report/_report_text.txt
+report/_pages.json
+slides/_name.png
+report/template/
+report/_name_cover.png
+report/*.docx
+report/*.pdf
+slides/*.pptx
+slides/*.pdf
+.venv/

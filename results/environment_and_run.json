@@ -1,0 +1,75 @@
+{
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "rdkit": "2026.03.4",
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "sklearn": "1.6.1",
+  "command": "run_project.py",
+  "started_utc": "2026-11-15T16:37:00.694048+00:00",
+  "finished_utc": "2026-11-15T16:37:19.178682+00:00",
+  "total_seconds": 18.5,
+  "fit_seconds": {
+    "M0_seeddet": 0.0,
+    "M1_seeddet": 0.0,
+    "M2_seed11": 0.41,
+    "M3_seed11": 1.15,
+    "M2_seed22": 0.41,
+    "M3_seed22": 1.02,
+    "M2_seed33": 0.41,
+    "M3_seed33": 1.09
+  },
+  "descriptors": [
+    "MolWt",
+    "MolLogP",
+    "TPSA",
+    "NumHDonors",
+    "NumHAcceptors",
+    "NumRotatableBonds",
+    "NumRings",
+    "FractionCSP3"
+  ],
+  "config": {
+    "dataset": "openadmet/openadmet-expansionrx-challenge-data",
+    "train_url": "https://huggingface.co/datasets/openadmet/openadmet-expansionrx-challenge-data/resolve/main/expansion_data_train.csv",
+    "test_url": "https://huggingface.co/datasets/openadmet/openadmet-expansionrx-challenge-data/resolve/main/expansion_data_test.csv",
+    "expected_sha256": {
+      "expansion_data_train.csv": "c5214ad8c8a4d7d4d09082fcce24fe16c97a980a1e0873b91b8c8e474b79f6e4",
+      "expansion_data_test.csv": "e21c0ef19795317216287e924e00ca3ef9388b7032a7fa4c7f27e2580372c85e"
+    },
+    "label": "LogD",
+    "smiles_col": "SMILES",
+    "name_col": "Molecule Name",
+    "split": {
+      "test_size": 0.2,
+      "random_state": 42
+    },
+    "ridge_alphas": [
+      0.1,
+      1,
+      10,
+      100
+    ],
+    "rf": {
+      "n_estimators": 300,
+      "max_features": "sqrt",
+      "max_depth": null,
+      "n_jobs": 4,
+      "leaf_grid": [
+        1,
+        2,
+        5
+      ],
+      "val_seed": 11
+    },
+    "final_seeds": [
+      11,
+      22,
+      33
+    ],
+    "morgan": {
+      "radius": 2,
+      "fpSize": 1024
+    }
+  }
+}

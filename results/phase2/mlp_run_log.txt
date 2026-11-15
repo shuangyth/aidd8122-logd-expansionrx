@@ -1,0 +1,10 @@
+[    0.0s] features
+[   51.9s] descriptors kept 195; feature matrix (5039, 1219)
+[  120.4s]   hidden=(256,) alpha=0.001: CV MAE 0.4161  folds [0.419, 0.483, 0.369, 0.394]
+[  187.6s]   hidden=(256,) alpha=0.1: CV MAE 0.4112  folds [0.41, 0.485, 0.359, 0.391]
+[  288.4s]   hidden=(256, 128) alpha=0.001: CV MAE 0.4238  folds [0.425, 0.498, 0.37, 0.402]
+[  392.3s]   hidden=(256, 128) alpha=0.1: CV MAE 0.4097  folds [0.419, 0.473, 0.367, 0.379]
+[  392.3s] selected: hidden=(256, 128), alpha=0.1, CV MAE 0.4097
+[  424.2s] CV: M6 none 0.4867, M8 0.4097, M9 mean(M6,M8) 0.4277
+[  469.1s] test MAE: {'M8': 0.5142051218538735, 'M9': 0.5106469498814723, 'M6_none': 0.5448766884415426, 'primary_M6_w2500': 0.5479511353769915}
+[  469.2s] done

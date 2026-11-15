@@ -1,0 +1,9 @@
+{
+  "test_nn_sim_median": 0.6266666666666667,
+  "val_nn_sim_median": 0.7846153846153846,
+  "val_frac_nn_sim_ge_0.999": 0.11805555555555555,
+  "val_n_nn_sim_ge_0.999": 119,
+  "val_n": 1008,
+  "test_frac_nn_sim_ge_0.999": 0.0,
+  "spearman_sim_vs_abs_err": -0.11384450479898364
+}

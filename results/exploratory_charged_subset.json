@@ -1,0 +1,27 @@
+{
+  "train_charged": 3,
+  "train_total": 5039,
+  "test_charged": 11,
+  "test_total": 2270,
+  "M1": {
+    "MAE_all": 0.7656429809775986,
+    "MAE_charged": 3.3746338523702306,
+    "MAE_uncharged": 0.7529387314931721,
+    "median_true_logD_charged": -1.0,
+    "n_top50_errors_charged": 11
+  },
+  "M2": {
+    "MAE_all": 0.6794091785348951,
+    "MAE_charged": 3.7586844350094353,
+    "MAE_uncharged": 0.6644149209779141,
+    "median_true_logD_charged": -1.0,
+    "n_top50_errors_charged": 11
+  },
+  "M3": {
+    "MAE_all": 0.620086882751365,
+    "MAE_charged": 3.710855050505049,
+    "MAE_uncharged": 0.6050366614829762,
+    "median_true_logD_charged": -1.0,
+    "n_top50_errors_charged": 11
+  }
+}

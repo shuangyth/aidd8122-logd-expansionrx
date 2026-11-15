@@ -1,0 +1,17 @@
+{
+  "downloaded_utc": "2026-11-15T16:37:00.694062+00:00",
+  "files": {
+    "expansion_data_train.csv": {
+      "sha256": "c5214ad8c8a4d7d4d09082fcce24fe16c97a980a1e0873b91b8c8e474b79f6e4",
+      "bytes": 464076,
+      "matches_expected": true
+    },
+    "expansion_data_test.csv": {
+      "sha256": "e21c0ef19795317216287e924e00ca3ef9388b7032a7fa4c7f27e2580372c85e",
+      "bytes": 221291,
+      "matches_expected": true
+    }
+  },
+  "hf_revision_sha": "6b898ccc43d10d25b230fb09e22a6e30c30022b5",
+  "hf_last_modified": "2026-01-27T03:10:43.000Z"
+}

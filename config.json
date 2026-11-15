@@ -1,0 +1,24 @@
+{
+  "dataset": "openadmet/openadmet-expansionrx-challenge-data",
+  "train_url": "https://huggingface.co/datasets/openadmet/openadmet-expansionrx-challenge-data/resolve/main/expansion_data_train.csv",
+  "test_url": "https://huggingface.co/datasets/openadmet/openadmet-expansionrx-challenge-data/resolve/main/expansion_data_test.csv",
+  "expected_sha256": {
+    "expansion_data_train.csv": "c5214ad8c8a4d7d4d09082fcce24fe16c97a980a1e0873b91b8c8e474b79f6e4",
+    "expansion_data_test.csv": "e21c0ef19795317216287e924e00ca3ef9388b7032a7fa4c7f27e2580372c85e"
+  },
+  "label": "LogD",
+  "smiles_col": "SMILES",
+  "name_col": "Molecule Name",
+  "split": {"test_size": 0.2, "random_state": 42},
+  "ridge_alphas": [0.1, 1, 10, 100],
+  "rf": {
+    "n_estimators": 300,
+    "max_features": "sqrt",
+    "max_depth": null,
+    "n_jobs": 4,
+    "leaf_grid": [1, 2, 5],
+    "val_seed": 11
+  },
+  "final_seeds": [11, 22, 33],
+  "morgan": {"radius": 2, "fpSize": 1024}
+}
